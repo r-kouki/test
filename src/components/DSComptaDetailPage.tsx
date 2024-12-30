@@ -194,7 +194,7 @@ const DSComptaDetailPage = () => {
               </div>
               <div className="relative">
                 <img
-                  src="/images/dscompta.webp"
+                  src={`${import.meta.env.BASE_URL}images/dscompta.webp`}
                   alt="DSCOMPTA Interface"
                   className="rounded-xl shadow-xl w-full"
                 />

@@ -25,9 +25,9 @@ const ProductsSection = () => {
   const getProductImage = (productId: string) => {
     switch(productId) {
       case 'dspaye':
-        return '/images/dspaie.webp';
+        return '/images/dspaie1.jpg';
       case 'dscompta':
-        return '/images/dscompta.webp';
+        return '/images/dscompta1.jpg';
       case 'dsdeclaration':
         return '/images/dsdeclaration.webp';
       default:
