@@ -25,11 +25,11 @@ const ProductsSection = () => {
   const getProductImage = (productId: string) => {
     switch(productId) {
       case 'dspaye':
-        return '/images/dspaie1.jpg';
+        return '/images/dspaie.webp';
       case 'dscompta':
-        return '/images/dscompta1.jpg';
+        return '/images/dscompta.webp';
       case 'dsdeclaration':
-        return '/images/dsdeclaration1.jpg';
+        return '/images/dsdeclaration.webp';
       default:
         return products.find(p => p.id === productId)?.imageUrl || '';
     }
