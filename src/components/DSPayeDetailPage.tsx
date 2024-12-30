@@ -167,7 +167,7 @@ const DSPayeDetailPage = () => {
               </div>
               <div className="relative">
                 <img
-                  src="/images/dspaie.webp"
+                   src={`${import.meta.env.BASE_URL}images/dspaie.webp`}
                   alt="DSPAYE Interface"
                   className="rounded-xl shadow-xl w-full"
                 />
