@@ -190,7 +190,7 @@ const DSDeclarationDetailPage = () => {
               </div>
               <div className="relative">
                 <img
-                  src={`${import.meta.env.BASE_URL}images/dsdeclaration.webp`}
+                  src={`${import.meta.env.BASE_URL}images/dsdeclaration.jpeg`}
                   alt="DSDECLARATION Interface"
                   className="rounded-xl shadow-xl w-full"
                 />
